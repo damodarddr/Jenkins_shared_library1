@@ -1,5 +1,4 @@
 stage('Clean Workspace') {
     steps {
-        cleanWs()
-    }
-}
+        script {
+            dir("${JENK
