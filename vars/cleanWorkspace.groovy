@@ -1,4 +1,4 @@
-#cleanWorkspace.groovy //cleans workspace
+// vars/cleanWorkspace.groovy
 def call() {
     cleanWs()
 }
