@@ -1,7 +1,4 @@
-stage('Clean Workspace') {
-    steps {
-        script {
-            deleteDir()
-        }
-    }
+#cleanWorkspace.groovy //cleans workspace
+def call() {
+    cleanWs()
 }
